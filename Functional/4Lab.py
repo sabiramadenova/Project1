@@ -30,7 +30,7 @@ def sort_strategy(arr, strategy):
     return strategy(arr)
 
 
-array_to_sort = [3, 1, 5, 2, 4]
+array_to_sort = [2, 1, 5, 3, 4]
 
 
 print("Sorted array using bubble sort:", sort_strategy(array_to_sort, bubble_sort))
